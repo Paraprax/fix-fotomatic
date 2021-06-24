@@ -116,7 +116,7 @@ header .mobile {
 
 #sign-up-section {
   background-image: url("../images/banner-landingpage.jpg");
-  background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
   display: flex;
@@ -238,6 +238,10 @@ header .mobile {
   margin: 0 auto;
 }
 
+.feature .content {
+  padding: 2.5rem 0;
+}
+
 .feature h2 {
   padding-bottom: 0.5rem;
   font-size: 2.25rem;
@@ -274,6 +278,10 @@ header .mobile {
   .feature {
     margin: 0;
     padding: 1.25rem 1rem 0 1rem;
+  }
+
+  .feature .content {
+    padding: 1.25rem 0 1.875rem 0;
   }
 }
 
@@ -357,7 +365,7 @@ header .mobile {
   color: #4a4a4a;
 }
 
-#quotes-section quote-citation {
+#quotes-section .quote-citation {
   height: 1.875rem;
 }
 
@@ -366,12 +374,12 @@ header .mobile {
     padding: 1.875rem 0.625rem;
   }
 
-  #quotes-section quote {
+  #quotes-section .quote {
     font-size: 1.5rem;
     line-height: 1.4;
   }
 
-  #quotes-section quote-citation {
+  #quotes-section .quote-citation {
     display: block;
     padding-top: 1rem;
     margin: auto;
